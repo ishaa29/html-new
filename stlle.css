@@ -1,0 +1,46 @@
+/* class selector */
+/* #one{
+
+} */
+/* a[href='http://google.com']{
+    background-color: blue;
+}
+input[type='text']{
+    background-color: brown;
+}
+a[href^='http']{
+    background-color: beige;
+}
+a[href$='com']{
+    background-color: blueviolet;
+}
+a[href*='google']{
+    background-color: rgb(223, 6, 168);
+}
+*{
+    background-color: rgb(29, 205, 224);
+}+
+
+body{
+    background-color: rgb(255, 153, 19);
+} */
+/* div p{
+    background-color: rgb(59, 79, 113);
+}
+ol>li{
+    background-color: rgb(179, 95, 50);
+
+} */
+li:nth-child(3){
+    background-color: antiquewhite;
+}
+div{
+    height: 150px;
+   width: 150px;
+   background-color: rgb(216, 181, 129);
+   transition: 3s;
+}
+div:hover{
+    background-color: rgb(64, 73, 115);
+    border-radius: 50%;
+}
